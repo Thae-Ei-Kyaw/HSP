@@ -1,16 +1,14 @@
-.font-size-13
+.font-rb
 {
-	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
 }
+
 .font-size-16
 {
 	font-size: 16px;
 }
-#client
-{
-	background: #B3B6BB;
-}
-#client .coffee-top
+
+#client .client-top
 {
 	overflow: hidden;
 }
@@ -19,7 +17,37 @@
 	transform: scale(1.2);
 	transition : transform 1.5s ease;
 }
+
 .btn
 {
 	background-color: #D53633;
 }
+
+.pagination 
+{
+  display: inline-block;
+}
+.pagination a 
+{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.about
+{
+	background: #dffafd;
+}
+#aboutus
+{
+	background: #f6f6f6;
+
+}
+/*#borderimg1 {
+ border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(../images/border.png) 50 round;
+}*/
